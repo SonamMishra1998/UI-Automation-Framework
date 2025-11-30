@@ -8,7 +8,7 @@
 
 name: Test Automation WorkFLow
 on:
-  scheduler:
+  schedule:
   - cron: 30 23 * * *
   push:
     branches: [ "master" ]
